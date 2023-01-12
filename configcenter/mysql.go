@@ -15,8 +15,8 @@ var (
 	defaultMysqlConf *MysqlConf
 )
 
-func SetMysql(conf RedisConf) {
-	defaultRedisConf = &conf
+func SetMysql(conf MysqlConf) {
+	defaultMysqlConf = &conf
 }
 
 // GetDefaultMysql GetDefaultRedis 获取默认配置
